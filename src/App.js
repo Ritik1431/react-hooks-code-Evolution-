@@ -1,6 +1,7 @@
-import './App.css';                     //75
-import CounterOne from './components/CounterOne';
-import CounterTwo from './components/CounterTwo';
+import './App.css';                     //76
+import UserForm from './components/UserForm';
+// import CounterOne from './components/CounterOne';
+// import CounterTwo from './components/CounterTwo';
 // import DocTitleOne from './components/DocTitleOne';
 // import DocTitleTwo from './components/DocTitleTwo';
 // import ClassTimer from './components/ClassTimer';
@@ -20,8 +21,9 @@ function App() {
       <HookTImer/> */}
       {/* <DocTitleOne/>
       <DocTitleTwo/> */}
-      <CounterOne/>
-      <CounterTwo/>
+      {/* <CounterOne/>
+      <CounterTwo/> */}
+      <UserForm/>
     </div>
   );
 }
