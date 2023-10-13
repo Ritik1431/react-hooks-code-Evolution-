@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.css';                     //73
+// import ClassTimer from './components/ClassTimer';
+// import FocusInput from './components/FocusInput';
+// import HookTImer from './components/HookTImer';
+// import Counter from './components/Counter';
+// import DataFetchingTwo from './components/DataFetchingTwo';
+// import DataFetchingOne from './components/DataFetchingOne';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <DataFetchingOne/> */}
+      {/* <DataFetchingTwo/> */}
+      {/* <Counter/> */}
+      {/* <FocusInput/>
+      <ClassTimer/>
+      <HookTImer/> */}
+
     </div>
   );
 }
